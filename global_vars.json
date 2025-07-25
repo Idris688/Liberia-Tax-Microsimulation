@@ -9,7 +9,7 @@
   "pit_function_names_filename": "function_names_pit_training.json",
   "pit_distribution_json_filename": "pit_distribution_macedonia.json",
   "gdp_filename": "gdp_nominal.csv",
-  "start_year": "2025",
+  "start_year": "2016",
   "end_year": "2030",
   "data_start_year": "2016",
   "SALARY_VARIABLE": "CONS_Total",
@@ -38,14 +38,10 @@
   "cit_display_distribution_table_byincome": 0,
   "cit_display_distribution_table_bydecile": 0,
   "cit_display_revenue_table": 1,
-  "vat_display_distribution_table_byincome": 1,
+  "vat_display_distribution_table_byincome": 0,
   "vat_display_distribution_table_bydecile": 0,
   "vat_display_revenue_table": 1,
-  "kakwani_list": [
-    0.47742334954955634,
-    0.0994161168497677,
-    0.0994161168497677
-  ],
+  "kakwani_list": [],
   "GDP_Nominal": {
     "2018": 660.878,
     "2019": 689.425,
@@ -64,12 +60,7 @@
   "percent_gdp": 0,
   "charts_ready": 1,
   "chart_list": [
-    "vat_revenue_projection",
-    "vat_distribution_table",
-    "vat_distribution_table_top1",
-    "vat_distribution_table_income_bins",
-    "vat_etr",
-    "vat_lorenz_curve"
+    "vat_revenue_projection"
   ],
   "show_error_log": 0,
   "verbose": 0,
@@ -87,7 +78,7 @@
   "cit_distribution_table": 0,
   "cit_display_distribution_table": 0,
   "cit_display_distribution_table_by_attribute": 0,
-  "vat_distribution_table": 1,
+  "vat_distribution_table": 0,
   "vat_display_distribution_table": 0,
   "vat_display_distribution_table_by_attribute": 0
 }

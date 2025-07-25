@@ -38,10 +38,10 @@ def cal_CONS_Other(CONS_Clothing_Footwear,	CONS_Housing,
     return CONS_Other
 
 @iterate_jit(nopython=True)
-def cal_CONS_Total(CONS_Food, CONS_Other, CONS_Total):
+def cal_CONS_Total(CONS_Food_Non_Processed, CONS_Food_Processed, CONS_Other, CONS_Total):
     """
     """
-    CONS_Total = CONS_Food + CONS_Other
+    CONS_Total = CONS_Food_Non_Processed + CONS_Food_Processed+ CONS_Other
     return CONS_Total
 
 @iterate_jit(nopython=True)
@@ -87,17 +87,29 @@ def cal_Applicable_Elasticity_Non_Food(elasticity_consumption_non_food_threshold
     return applicable_elasticity_non_food
 
 @iterate_jit(nopython=True)
-def cal_CONS_Food_behavior_and_vat(rate_Food, rate_Food_curr_law, applicable_elasticity_food, CONS_Food, vat_Food):
+def cal_CONS_Food_behavior_and_vat(rate_Food_Non_Processed, rate_Food_Non_Processed_curr_law,
+                                   rate_Food_Processed, rate_Food_Processed_curr_law, 
+                                   applicable_elasticity_food, CONS_Food_Non_Processed, 
+                                   CONS_Food_Processed, vat_Food):
     """
     Compute consumption after adjusting for behavior.
     """
-    rate=rate_Food
-    rate_curr_law=rate_Food_curr_law
+    rate=rate_Food_Non_Processed
+    rate_curr_law=rate_Food_Non_Processed_curr_law
     # Compute the fractional change of VAT rate safely
     frac_change_of_vat_rate = (rate - rate_curr_law) / (1+rate_curr_law)
     frac_change_of_consumption = applicable_elasticity_food*frac_change_of_vat_rate
-    CONS_Food_behavior = CONS_Food*(1+frac_change_of_consumption)
-    vat_Food = rate_Food*CONS_Food_behavior
+    CONS_Food_Non_Processed_behavior = CONS_Food_Non_Processed*(1+frac_change_of_consumption)
+    vat_Food_Non_Processed = rate_Food_Non_Processed*CONS_Food_Non_Processed_behavior
+    
+    rate=rate_Food_Processed
+    rate_curr_law=rate_Food_Processed_curr_law
+    # Compute the fractional change of VAT rate safely
+    frac_change_of_vat_rate = (rate - rate_curr_law) / (1+rate_curr_law)
+    frac_change_of_consumption = applicable_elasticity_food*frac_change_of_vat_rate
+    CONS_Food_Processed_behavior = CONS_Food_Processed*(1+frac_change_of_consumption)
+    vat_Food_Processed = rate_Food_Processed*CONS_Food_Processed_behavior
+    vat_Food = vat_Food_Non_Processed + vat_Food_Processed
     return vat_Food
 
 @iterate_jit(nopython=True)

@@ -129,14 +129,16 @@ def display_chart(self, event, global_vars):
     if (selected_chart==tax_type+'_revenue_projection'):        
         df = pd.read_csv(selected_chart+'.csv', index_col=0)           
         df = df.T
-        
+        fig, ax = plt.subplots(figsize=(8, 6))        
         if tax_type == 'pit':
+            plt.title('Personal Income Tax forecast (in millions)')
             df = df
             if self.vars[tax_type+'_adjust_behavior']:
                 df.columns=['Current Law', 'Reform', 'Behavior']
             else:
                 df.columns=['Current Law', 'Reform']
         elif tax_type == 'cit':
+            plt.title('Corporate Income Tax forecast (in millions)')
             if self.vars[tax_type+'_adjust_behavior']:
                 df = df[df.columns[:3]]
                 df.columns=['Current Law', 'Reform', 'Behavior']
@@ -144,6 +146,7 @@ def display_chart(self, event, global_vars):
                 df = df[df.columns[:2]]
                 df.columns=['Current Law', 'Reform']
         elif tax_type == 'vat':
+            plt.title('Value Added Tax forecast (in millions)')
             df = df
             if self.vars[tax_type+'_adjust_behavior']:
                 df.columns=['Current Law', 'Reform', 'Behavior']
@@ -151,14 +154,13 @@ def display_chart(self, event, global_vars):
                 df.columns=['Current Law', 'Reform']
                 
         df1 = df.rename_axis('Year').reset_index()
-        fig, ax = plt.subplots(figsize=(8, 6))
         plt.plot(df1['Year'], df1['Current Law'], color='b', marker='x',
                  label='Current Law')
         plt.plot(df1['Year'], df1['Reform'], color='r', marker='o', 
                  markerfacecolor='None', markeredgecolor='b',
                  label='Reform')
         plt.legend()
-        plt.title('Personal Income Tax forecast (in billions)')
+
         pic_filename1 = "rev_forecast.png"        
         plt.savefig(pic_filename1)
         plt.close('all')

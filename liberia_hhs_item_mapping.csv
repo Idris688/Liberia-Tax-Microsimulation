@@ -1,0 +1,190 @@
+﻿item,Category
+Local Rice,Food_Non_Processed
+"Imported Rice (including pusswa, butter rice, etc.)",Food_Non_Processed
+Corn (Maize),Food_Non_Processed
+Other cereals (Specify),Food_Non_Processed
+"Corn flour, Wheat flour/Farina, Semolina",Food_Non_Processed
+Other flours (specify),Food_Non_Processed
+"Bread (long bread, round bread, Lebanese bread etc.)",Food_Non_Processed
+"Pasta products (macaroni, spaghetti)",Food_Non_Processed
+"Fritters (Callah), Pastry and Doughnut, Biscuits and Cakes, Corn bread, Rice bread, Short bread etc.",Food_Non_Processed
+Cassava roots,Food_Non_Processed
+"Cassava flour (fufu), gari",Food_Non_Processed
+Yams,Food_Non_Processed
+Sweet potatoes,Food_Non_Processed
+Irish Potatoes,Food_Non_Processed
+Plantains,Food_Non_Processed
+Bitter balls/Kitilay,Food_Non_Processed
+Eddoes,Food_Non_Processed
+Other roots and tubers (specify),Food_Non_Processed
+Sugar,Food_Processed
+"Sweets (Candies, etc)",Food_Processed
+Chocolate/Ice Creams,Food_Processed
+"Honey, syrups,",Food_Processed
+"Jams, marmalade, jellies",Food_Processed
+Dried beans,Food_Non_Processed
+Dried peas,Food_Non_Processed
+Other lentils and pulses,Food_Non_Processed
+Kola Nut/Beetel Nut,Food_Non_Processed
+"Groundnuts in shell/shelled/butter, Groundpea",Food_Non_Processed
+Groundnut oil,Food_Processed
+Coconuts oil,Food_Processed
+Palm nuts,Food_Processed
+Palm oil,Food_Processed
+Palm Kernel Oil,Food_Processed
+Argo Oils/ Vegetable Oils / Olive Oil,Food_Processed
+"Butter, margarine and other not fat butter",Food_Processed
+"Other seeds/nuts or products from nuts/seeds (cotton, soya)",Food_Non_Processed
+Sesame Seeds / Beneseeds,Food_Non_Processed
+Animal fats,Food_Non_Processed
+Fresh tomatoes,Food_Non_Processed
+Onions,Food_Non_Processed
+Garlic,Food_Non_Processed
+Cassava Leaves,Food_Non_Processed
+"Cabbage, Lettuce",Food_Non_Processed
+Okra,Food_Non_Processed
+Collard Greens,Food_Non_Processed
+Potato greens/ sweet potato greens,Food_Non_Processed
+"Other green leaves (folong, oseille)",Food_Non_Processed
+Eggplant,Food_Non_Processed
+Carrots,Food_Non_Processed
+Green beans,Food_Non_Processed
+Ginger,Food_Non_Processed
+Other vegetables,Food_Non_Processed
+Bananas,Food_Non_Processed
+"Citrus fruits (oranges, lemon, tangerines, lime, etc.)",Food_Non_Processed
+Mangoes,Food_Non_Processed
+Papayas / Paw Paw,Food_Non_Processed
+Avacados / Butter Pear,Food_Non_Processed
+Pineapples,Food_Non_Processed
+Coconuts (mature/immature),Food_Non_Processed
+Grapefruit,Food_Non_Processed
+Cucumber,Food_Non_Processed
+"Other fruits (guava, apples, watermelon, etc)",Food_Non_Processed
+Eggs,Food_Non_Processed
+Goat/mutton meat,Food_Non_Processed
+Sheep/lamb meat,Food_Non_Processed
+"Beef (cow) including minced sausage, liver etc.",Food_Non_Processed
+Corned Beef,Food_Non_Processed
+Pork including sausages and bacon,Food_Non_Processed
+Pig Feet,Food_Non_Processed
+Live Chicken,Food_Non_Processed
+Frozen Chicken,Food_Non_Processed
+Chicken Feet,Food_Non_Processed
+"Other Domestic Fowl (Ducks, Guinea fowl, game birds etc)",Food_Non_Processed
+Meat from other domesticated animals,Food_Non_Processed
+Smoked Fish (dried/salted),Food_Non_Processed
+"Fresh Fish (cassava fish, cavalla fish, mackerel, snappers, soul fish etc.)",Food_Non_Processed
+Canned fish (sardines etc),Food_Processed
+"Crustaceans and mollusks (crab, shrimp etc)",Food_Processed
+Other aquatic products,Food_Processed
+"Wild/Bush meat (Porcupine gazelle, palm worms, chenilles, monkey meat)",Food_Processed
+Canned milk/ condensed milk,Food_Processed
+"Milk products (like cream, cheese, yoghurt etc)",Food_Processed
+Powdered Milk,Food_Processed
+Fresh milk (directly from animal),Food_Processed
+Salt,Food_Non_Processed
+Dry Pepper,Food_Non_Processed
+Fresh Pepper,Food_Non_Processed
+"Bouillon cubes (maggi, jumbo, etc)",Food_Processed
+Tomato Paste,Food_Processed
+Fresh Yeast,Food_Processed
+French Fries Potato,Food_Processed
+Tomato Ketchup,Food_Processed
+"Baby Foods (e.g. rice based, wheat based etc.)",Food_Processed
+Other spices and condiments,Food_Processed
+Coffee and cocoa,Food_Processed
+"Tea, Herbal Tea (Lipton's)",Food_Processed
+"Chocolate drinks (ovaltine, etc)",Food_Processed
+Fruit Juice,Food_Processed
+Mineral Water,Food_Processed
+Other raw materials for drinks,Alcohol_Tobacco
+Bottled/Canned soft drinks(coke/pepsi etc),Alcohol_Tobacco
+"Local Beer (Club, Stout)",Alcohol_Tobacco
+"Imported Beer (Heineken, Becks, Savanna)",Alcohol_Tobacco
+Nicom / Palm wine / Cane Juice,Alcohol_Tobacco
+"Other alcoholic beverages (Gin, Johnny Walker, Dewar etc)",Alcohol_Tobacco
+"Cigarettes (Lucky Strike / Marlborough), snuff",Alcohol_Tobacco
+Matches,Housing_Goods_Services
+Public transport,Transport
+Candles,Housing_Goods_Services
+Car Washing/Parking Fees,Transport
+Garbage Collection,Miscellaneous
+Shoe Shining,Housing_Goods_Services
+Mosquito Coil / Insecticide Spray,Housing_Goods_Services
+Cell phone scratch card (vouchers),Communication
+Petrol or diesel,Housing_Goods_Services
+Kerosene/Paraffin,Housing_Goods_Services
+Electricity,Housing_Goods_Services
+Bottled Gas/Propane(for lighting/cooking),Housing_Goods_Services
+Shoe Polish,Housing_Goods_Services
+Wood and other solid fuels,Housing_Goods_Services
+"Other energy sources (batteries, etc.)",Housing_Goods_Services
+"Pets (Purchase of cats, dogs, veterinary and other services)",Recreation_Culture
+"Admission charges (local video club, cinema, stadium, concert)",Recreation_Culture
+Newspapers and Magazines,Recreation_Culture
+Charcoal,Housing_Goods_Services
+"Milling fees, grain",Housing_Goods_Services
+Bar soap (bath/body soap/ palmolive / life buoy),Housing_Goods_Services
+Laundry soap/Powder Soap (Clothes),Housing_Goods_Services
+"Toothpaste, toothbrush",Housing_Goods_Services
+Vehicle rental,Housing_Goods_Services
+"Personal services (barber, manicure, pedicure, facial, hair dressers)",Housing_Goods_Services
+Toilet paper,Housing_Goods_Services
+"Glycerine, Vaseline, skin creams, personal oils and lotions",Housing_Goods_Services
+"Other personal/beauty products products (shampoo, razor blades, cosmetics, hair products, nail polish, powder, oil etc.)",Housing_Goods_Services
+"Household cleaning products (dish soap, toilet cleansers, broom, brush etc.)",Housing_Goods_Services
+"Disposable Diapers (Pampers, etc.)",Housing_Goods_Services
+Light bulbs,Housing_Goods_Services
+"Internet, postage stamps or other postal fees",Communication
+"Donation - to church, charity, beggar, etc.",Recreation_Culture
+"Motor vehicle service, repair, or parts",Transport
+"Oil change / grease job (car, motor bike, etc.)",Transport
+"Repair / pumping of tires, wheels",Transport
+"Bicycle service, repair, or parts",Transport
+Wages paid to domestic help,Miscellaneous
+Bleach (Chlorax),Housing_Goods_Services
+Laundry Services,Housing_Goods_Services
+"Game of Chance (Winners, lottery etc.)",Miscellaneous
+Photocopying / Printing / Typing,Housing_Goods_Services
+Wheel Barrow / Push-Push,Housing_Goods_Services
+"Carpet, rugs",Housing_Goods_Services
+"Drapes, curtains",Housing_Goods_Services
+"Linen - towels, sheets, blankets",Housing_Goods_Services
+Mattress (Foam),Housing_Goods_Services
+"Sports & hobby equipment, musical instruments (drums, horn, etc. Do NOT include radios/CD Player)",Recreation_Culture
+"Film, film processing, camera, video camera",Recreation_Culture
+"Building items - bricks, timber, zinc sheets, tools, pipes",Housing
+Cement,Housing
+Paint,Housing
+Bucket,Housing_Goods_Services
+Travel expenses (other city or country  / pilgrimage),Recreation_Culture
+"Insurance - health, auto, home, life",Miscellaneous
+Losses to theft (value of items or cash lost),Miscellaneous
+Fines or legal/administrative fees,Miscellaneous
+Bride price /Marriage costs etc,Miscellaneous
+Funeral costs,Miscellaneous
+Jewelry,Miscellaneous
+"Garments for men (shirts, underpants, undershirt, t-shirt, trousers, khaki shirt/trouser, pyjama, shorts, socks, suits, cloth wraps, lappa, fabric etc.)",Clothing_Footwear
+"Garments for women (dress, lappa suit, blouses, bra, underwear, skirts, boubou, jeans, skirt, lappa, cloth wrap, fabric etc.)",Clothing_Footwear
+Garments for children and babies,Clothing_Footwear
+"Sewing costs, Tailoring and Seamstress Costs, Clothing Repair Costs (for men, women and children)",Clothing_Footwear
+"Footwear for men (leather shoes, plastic sandals, sneakers, sports shoes etc.)",Clothing_Footwear
+"Footwear for women (sandals, heels, sneakers, etc.)",Clothing_Footwear
+Footwear for children and babies,Clothing_Footwear
+"Accessories (handkerchiefs, belts, hats, ties, watches, handbags etc.)",Clothing_Footwear
+"Other clothing articles (buttons, thread, etc.)",Clothing_Footwear
+"Repairs to household durables and personal items (radios, watches, other appliances etc.)",Housing_Goods_Services
+Moving and Shipping Expenses,Miscellaneous
+"Taxes for income, property, etc.",Miscellaneous
+"Games and Toys (Chess, Cards, Checkers, Dolls, etc.)",Housing_Goods_Services
+"Writing and drawing materials (notebooks, enveloes, etc.)",Housing_Goods_Services
+"Financial fees (banks, money transfers Western Union / Moneygram)",Housing_Goods_Services
+"Other transport related expenses (vehicle inspection, driving school, etc.)",Transport
+"Farm Implements (cutlass, handhoe, shovel, digger, axe, rake, pingalay, saw, chapiah, etc.)",Miscellaneous
+Other costs not stated elsewhere,Miscellaneous
+Education,Education
+Health,Health
+Restaurant,Restaurants_Hotels
+Housing,Housing
+Water,Housing
