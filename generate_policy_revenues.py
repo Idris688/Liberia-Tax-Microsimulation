@@ -82,10 +82,10 @@ def weighted_total_tax(calc, tax_list, category, year, tax_dict, gdp=None, attri
             tax_dict[tax_type][year][category]['value_gdp'] = {}
             tax_dict[tax_type][year][category]['value_gdp_str'] = {}        
         for k in tax_dict[tax_type][year][category]['value'].keys():
-            tax_dict[tax_type][year][category]['value_bill'][k] = tax_dict[tax_type][year][category]['value'][k]/10**9
+            tax_dict[tax_type][year][category]['value_bill'][k] = tax_dict[tax_type][year][category]['value'][k]/10**6
             tax_dict[tax_type][year][category]['value_bill_str'][k] = '{0:.2f}'.format(tax_dict[tax_type][year][category]['value_bill'][k])        
             if gdp is not None:
-                tax_dict[tax_type][year][category]['value_gdp'][k] = ((tax_dict[tax_type][year][category]['value'][k]/10**9)/gdp[str(year)])*100
+                tax_dict[tax_type][year][category]['value_gdp'][k] = ((tax_dict[tax_type][year][category]['value'][k]/10**6)/gdp[str(year)])*100
                 tax_dict[tax_type][year][category]['value_gdp_str'][k] = '{0:.2f}'.format(tax_dict[tax_type][year][category]['value_gdp'][k])  
     #print('tax_dict ', tax_dict)
     return tax_dict
@@ -109,7 +109,7 @@ def weighted_total_tax_diff(tax_list, category1, category2, year, tax_dict, gdp=
 
 def screen_print(tax_list, category, year, tax_dict, item, item_desc):
     for tax_type in tax_list:
-        print("The "+tax_type.upper()+" "+item_desc+" in billions is: ", tax_dict[tax_type][year][category][item]['All'])
+        print("The "+tax_type.upper()+" "+item_desc+" in millions is: ", tax_dict[tax_type][year][category][item]['All'])
 
     
 def generate_policy_revenues():
@@ -279,7 +279,7 @@ def generate_policy_revenues():
             header = ["header","Year", "Current Law", "Reform", "Diff"]
             if global_variables[tax_type+'_adjust_behavior']:
                 header = header + ['Reform (Behavior)', "Diff"]
-            title_header = [["title", tax_type.upper()+" Projections (billions)"],
+            title_header = [["title", tax_type.upper()+" Projections (millions)"],
                             header]
             if percent_gdp:
                 title_header = [["title", tax_type.upper()+" Projections (% of GDP)"],

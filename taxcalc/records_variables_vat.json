@@ -60,7 +60,7 @@
             "cross_year": "No",
             "attribute": "No"
         },
-        "CONS_Food": {
+        "CONS_Food_Non_Processed": {
             "required": false,
             "type": "float",
             "desc": "Consumption of Food",
@@ -70,6 +70,16 @@
             "cross_year": "No",
             "attribute": "No"
         },
+        "CONS_Food_Processed": {
+            "required": false,
+            "type": "float",
+            "desc": "Consumption of Food",
+            "form": {
+                "2015": "National Household Survey 2015"
+            },
+            "cross_year": "No",
+            "attribute": "No"
+        },        
         "CONS_Alcohol_Tobacco": {
             "required": false,
             "type": "float",
